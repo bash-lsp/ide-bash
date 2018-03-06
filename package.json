@@ -1,0 +1,49 @@
+{
+  "name": "ide-bash",
+  "version": "1.0.0",
+  "description": "Language Bash language support for Atom-IDE",
+  "main": "src/main.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mads-hartmann/bash-language-server.git"
+  },
+  "author": "Mads Hartmann <mads3379@gmail.com> (https://twitter.com/mads_hartmann)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mads-hartmann/bash-language-server/issues"
+  },
+  "homepage": "https://github.com/mads-hartmann/bash-language-server#readme",
+  "dependencies": {
+    "atom-languageclient": "^0.9.2"
+  },
+  "enhancedScopes": [
+    "source.shell"
+  ],
+  "providedServices": {
+    "autocomplete.provider": {
+      "versions": {
+        "2.0.0": "provideAutocomplete"
+      }
+    },
+    "code-highlight": {
+      "versions": {
+        "0.1.0": "provideCodeHighlight"
+      }
+    },
+    "definitions": {
+      "versions": {
+        "0.1.0": "provideDefinitions"
+      }
+    },
+    "find-references": {
+      "versions": {
+        "0.1.0": "provideFindReferences"
+      }
+    },
+    "outline-view": {
+      "versions": {
+        "0.1.0": "provideOutlines"
+      }
+    }
+  }
+}
