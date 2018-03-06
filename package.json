@@ -6,6 +6,9 @@
   "repository": "https://github.com/mads-hartmann/ide-bash",
   "author": "Mads Hartmann <mads3379@gmail.com> (https://twitter.com/mads_hartmann)",
   "license": "MIT",
+  "engines": {
+    "atom": ">=1.21.0"
+  },
   "bugs": {
     "url": "https://github.com/mads-hartmann/ide-bash/issues"
   },
