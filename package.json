@@ -5,7 +5,7 @@
   "main": "src/main.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mads-hartmann/ide-bash.git"
+    "url": "https://github.com/mads-hartmann/ide-bash.git"
   },
   "author": "Mads Hartmann <mads3379@gmail.com> (https://twitter.com/mads_hartmann)",
   "license": "MIT",
