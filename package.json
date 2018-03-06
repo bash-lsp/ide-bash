@@ -5,14 +5,14 @@
   "main": "src/main.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mads-hartmann/bash-language-server.git"
+    "url": "git+https://github.com/mads-hartmann/ide-bash.git"
   },
   "author": "Mads Hartmann <mads3379@gmail.com> (https://twitter.com/mads_hartmann)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/mads-hartmann/bash-language-server/issues"
+    "url": "https://github.com/mads-hartmann/ide-bash/issues"
   },
-  "homepage": "https://github.com/mads-hartmann/bash-language-server#readme",
+  "homepage": "https://github.com/mads-hartmann/ide-bash#readme",
   "dependencies": {
     "atom-languageclient": "^0.9.2"
   },
