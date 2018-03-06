@@ -1,6 +1,6 @@
 {
   "name": "ide-bash",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Language Bash language support for Atom-IDE",
   "main": "src/main.js",
   "repository": {
