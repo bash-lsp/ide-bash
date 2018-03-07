@@ -3,7 +3,10 @@
   "version": "1.0.8",
   "description": "Language Bash language support for Atom-IDE",
   "main": "src/main.js",
-  "repository": "https://github.com/mads-hartmann/ide-bash",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:mads-hartmann/ide-bash.git"
+  },
   "author": "Mads Hartmann <mads3379@gmail.com> (https://twitter.com/mads_hartmann)",
   "license": "MIT",
   "engines": {
