@@ -5,7 +5,7 @@ const {AutoLanguageClient} = require('atom-languageclient')
 class BashLanguageClient extends AutoLanguageClient {
 
   getGrammarScopes () {
-    return [ 'source.shell' ]
+    return [ 'source.shell', 'bash' ]
   }
 
   getLanguageName () {
