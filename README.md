@@ -41,7 +41,7 @@ server then open the Developer Tools in Atom and execute the following piece of
 code in the Console.
 
 ```javascript
-atom.config.set('core.debugLSP', false)
+atom.config.set('core.debugLSP', true)
 ```
 
 Reload the window and you should see all the messages.
