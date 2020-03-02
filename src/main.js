@@ -23,7 +23,12 @@ class BashLanguageClient extends AutoLanguageClient {
     // loaded
     await new Promise(resolve => atom.whenShellEnvironmentLoaded(resolve));
 
-    const command = 'bash-language-server'
+    if ( process.platform == 'win32') {
+      const command = 'bash-language-server.cmd'
+    } else {
+      const command = 'bash-language-server'
+    }
+
     const args = ["start"]
 
     const childProcess = ChildProcess.spawn(command, args, {
